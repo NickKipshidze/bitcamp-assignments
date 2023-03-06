@@ -1,7 +1,7 @@
 # მეორე ვერსიისთვის
 import random
 
-def საწყისი_ვერსია():
+def საწყისი_ვერსია() -> None:
     # სახელის ცვლადი
     name = input("What is your name? ")
 
@@ -11,11 +11,11 @@ def საწყისი_ვერსია():
     # დავბეჭდოთ ჩვენი მისალმება
     print(output)
 
-def ცვლადების_გარეშე():
+def ცვლადების_გარეშე() -> None:
     # ერთ ხაზზე, ცვლადების გარეშე.
     print("Hello,", input("What is your name? "), "nice to meet you!")
 
-def მეორე_ვერსია():
+def მეორე_ვერსია() -> None:
     name = input("What is your name? ")
 
     # სავარაუდო მისალმებები
