@@ -12,4 +12,7 @@ quotes = {
   "oto zakalashvili" : "სწავლა და ბრძოლა!", 
 }
 
-print(f"{author} says, \"{quotes[author]}\"")
+try:
+    print(f"{author} says, \"{quotes[author]}\"")
+except KeyError:
+    pass
