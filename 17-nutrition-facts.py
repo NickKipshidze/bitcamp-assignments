@@ -13,7 +13,6 @@ calories = {
     "Orange" : 80,
     "Peach" : 60,
     "Pear" : 60,
-    "Pear" : 100,
     "Pineapple" : 50,
     "Plums" : 70,
     "Strawberries" : 50,
