@@ -12,7 +12,7 @@ def is_valid(s):
         return False
     
     # Check if first two symbols are numbers
-    if s[0].isdigit() and s[1].isdigit():
+    if s[0].isdigit() or s[1].isdigit():
         return False
     
     number_encountered = False
