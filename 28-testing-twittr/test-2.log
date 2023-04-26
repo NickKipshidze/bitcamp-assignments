@@ -1,4 +1,0 @@
-========================== short test summary info ===========================
-FAILED test_twttr.py::test_shorten_uppercase - AssertionError: assert 'HELLO' == 'HLL'
-FAILED test_twttr.py::test_shorten_mixcase - AssertionError: assert 'HLlO' == 'HLl'
-======================== 2 failed, 1 passed in 0.01s =========================

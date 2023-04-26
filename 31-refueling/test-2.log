@@ -1,3 +1,0 @@
-=========================== short test summary info ============================
-FAILED test_fuel.py::test_convert - ZeroDivisionError: division by zero
-========================= 1 failed, 1 passed in 0.01s ==========================

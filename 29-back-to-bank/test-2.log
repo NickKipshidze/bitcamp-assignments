@@ -1,4 +1,0 @@
-========================== short test summary info ===========================
-FAILED test_bank.py::test_value_h - AssertionError: assert 20 != 20
-FAILED test_bank.py::test_value_hello - AssertionError: assert 20 == 0
-======================== 2 failed, 1 passed in 0.02s =========================
