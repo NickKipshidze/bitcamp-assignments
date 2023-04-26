@@ -1,0 +1,84 @@
+/* Demonstration: https://youtu.be/EMMzZDwU-rU */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #202124;
+}
+
+body, input {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+
+header {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100vw;
+    height: 4vh;
+    background-color: #171717;
+    text-align: start;
+    padding-top: 2vh;
+    min-height: 25px;
+    margin-bottom: 20vh;
+}
+
+a {
+    color: #9aa0a6;
+    text-decoration: none;
+    margin: 20px;
+}
+
+form {
+    display: inline-block;
+}
+
+input[value="Advanced Search"] {
+    padding-top: 5vh;
+}
+
+input[type="text"] {
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    padding: 10px;
+    display: block;
+}
+
+form > input[type="text"]:hover {
+    background-color: #303134;
+    border: none;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+form > input[type="submit"] {
+    background-color: transparent;
+    border: none;
+    margin-top: 1vh;
+}
+
+.advanced-option-row {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.advanced-option-row > label {
+    display: inline;
+    padding-right: 10px;
+}
+
+.advanced-option-row > input {
+    display: inline;
+    margin: 0;
+    border-radius: 1px;
+    padding: 1px 8px;
+    min-height: auto;
+    min-width: auto;
+}
