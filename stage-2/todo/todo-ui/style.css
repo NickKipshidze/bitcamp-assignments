@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #181722;
+
+    color: white;
+    font-family: monospace;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    width: 40vw;
+    padding: 10px;
+    background-color: #222235;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    clip-path: circle(46% at 50% 50%);
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+#tasks-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 2px;
+}
