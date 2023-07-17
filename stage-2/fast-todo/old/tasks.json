@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "title": "Something",
+        "completed": true
+    },
+    {
+        "id": 2,
+        "title": "placeholder task 2",
+        "completed": false
+    },
+    {
+        "id": 3,
+        "title": "placeholder task 3",
+        "completed": false
+    },
+    {
+        "id": 5,
+        "title": "Eat the dog",
+        "completed": false
+    }
+]
